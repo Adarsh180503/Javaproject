@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    tools:context=".Activity.BookedOrderActivity">
+
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                style="@style/CustomTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="left"
+                android:background="@android:color/white"
+                app:tabTextColor="@color/colorAccent"
+                app:tabSelectedTextColor="@color/grey_60"
+                app:tabGravity="fill"
+                app:tabMode="fixed" />
+
+
+    <androidx.viewpager.widget.ViewPager
+    android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <!--  <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="3">
+          <Button
+              android:layout_width="0dp"
+              android:layout_height="40dp"
+              android:id="@+id/past_booking"
+              android:layout_weight="1"
+              android:text="Past"
+              android:layout_margin="10dp"
+              android:background="@color/colorAccent"/>
+
+          <Button
+              android:layout_width="0dp"
+              android:layout_height="40dp"
+              android:id="@+id/upcoming_booking"
+              android:layout_weight="1"
+              android:text="Upcoming"
+              android:layout_margin="10dp"
+              android:background="@color/colorAccent"/>
+
+          <Button
+              android:layout_width="0dp"
+              android:layout_height="40dp"
+              android:id="@+id/todays_booking"
+              android:layout_weight="1"
+              android:text="Today"
+              android:layout_margin="10dp"
+              android:background="@color/colorAccent"/>
+
+
+
+      </LinearLayout>
+
+              <androidx.recyclerview.widget.RecyclerView
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  android:id="@+id/book_order_recycler"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+              </androidx.recyclerview.widget.RecyclerView>
+     -->
+</LinearLayout>

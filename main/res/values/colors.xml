@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3CB371</color>
+    <color name="colorPrimaryDark">#32CD32</color>
+    <color name="colorAccent">#3CB371</color>
+    <color name="yellow">#FFC107</color>
+    <color name="reject">#F44336</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+
+    <color name="grey_60">#666666</color>
+    <color name="blue">#2196F3</color>
+    <color name="white">#ffffff</color>
+
+</resources>
